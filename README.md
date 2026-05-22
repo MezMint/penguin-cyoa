@@ -33,8 +33,8 @@ g++ cyoagame.cpp -o program
 ## Example
 
 ```bash
-g++ -std=c++17 -o hello hello.cpp
-./hello
+g++ cyoagame.cpp -o game
+./game
 ```
 
 ## Notes
