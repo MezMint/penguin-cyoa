@@ -1,25 +1,46 @@
-Installing Emacs
+# C++ Project
 
-On Ubuntu/Linux
-Open a terminal and run:
+This project was written in C++ using Emacs as the editor.
 
-sudo apt update
-sudo apt install emacs
-For the graphical version:
+## Requirements
 
-sudo apt install emacs-gtk
-On macOS
-Download Emacs from: https://emacsformacosx.com/Links to an external site.
+- GNU g++ compiler
+- Linux/macOS terminal (or WSL on Windows)
 
-To open the console/shell, it's cmd-x then shell 
+Check that g++ is installed:
 
-How to Open a File in Emacs
-To open or create a file inside Emacs:
+```bash
+g++ --version
+```
 
-Press: Ctrl + x, then Ctrl + f
+## Compile
 
-Type the file name (e.g., hello.cpp) and press Enter
+From the project directory, run:
 
-Or, from the terminal, you can also type:
+```bash
+g++ -std=c++17 -o program cyoagame.cpp
+```
 
-emacs hello.cpp
+- `cyoagame.cpp` = your source file
+- `program` = output executable name
+
+## Run
+
+```bash
+./program
+```
+
+## Example
+
+```bash
+g++ -std=c++17 -o hello hello.cpp
+./hello
+```
+
+## Notes
+
+- You can edit the code in Emacs with:
+
+```bash
+emacs cyoagame.cpp
+```
