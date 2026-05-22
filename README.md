@@ -18,7 +18,7 @@ g++ --version
 From the project directory, run:
 
 ```bash
-g++ -std=c++17 -o program cyoagame.cpp
+g++ cyoagame.cpp -o program
 ```
 
 - `cyoagame.cpp` = your source file
